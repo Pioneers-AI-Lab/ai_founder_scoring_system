@@ -423,11 +423,3 @@ Before you trust it:
    * penalties (scope creep, missing updates)
 4. Freeze the weights for 4 weeks to avoid “moving goalposts”.
 
----
-
-If you want, I can turn this spec into:
-
-* A **Zod schema** for the LLM extraction JSON
-* A **SQL / Drizzle** implementation for FounderWeek and scoring
-* An Airtable-compatible formula approach (limited but workable) plus a script/automation for the LLM extraction.
-
