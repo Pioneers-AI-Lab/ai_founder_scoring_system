@@ -278,13 +278,3 @@ But even then, keep the *displayed* score interpretable:
 * “Quiet but strong” (low visibility, high evidence)
 * “Data quality issues” (missing weeks, contradictions)
 
----
-
-## If you want, I can generate the exact artifacts
-
-1. A concrete **JSON schema** for the LLM extraction output (Zod-ready).
-2. A **scoring spec** with precise formulas and thresholds.
-3. A **Next.js / Go pipeline** design to compute FounderWeek nightly and push back into Airtable (or migrate to Postgres/Drizzle).
-
-If you tell me where you want this to live (still in Airtable vs Postgres) and what your “advance/drop” ground truth looks like (from Startup Evaluation or another column), I’ll tailor the scoring and the evaluation loop to your real decision process.
-
